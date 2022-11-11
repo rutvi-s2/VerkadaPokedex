@@ -81,29 +81,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F15DB7CD291C07AD00ED4D64 /* Model */ = {
+		F15DB7CD291C07AD00ED4D64 /* Pokemon Model */ = {
 			isa = PBXGroup;
 			children = (
 				F15DB7D6291C826C00ED4D64 /* Pokemon.swift */,
 			);
-			path = Model;
+			path = "Pokemon Model";
 			sourceTree = "<group>";
 		};
-		F15DB7CE291C07B700ED4D64 /* View */ = {
+		F15DB7CE291C07B700ED4D64 /* Pokemon Views */ = {
 			isa = PBXGroup;
 			children = (
 				F15DB7D2291C080C00ED4D64 /* PokeCell.swift */,
 				F15DB7D4291C0AF800ED4D64 /* PokeView.swift */,
 			);
-			path = View;
+			path = "Pokemon Views";
 			sourceTree = "<group>";
 		};
-		F15DB7CF291C07BC00ED4D64 /* ViewModel */ = {
+		F15DB7CF291C07BC00ED4D64 /* Pokemon API */ = {
 			isa = PBXGroup;
 			children = (
 				F15DB7D8291C8CAA00ED4D64 /* PokemonViewModel.swift */,
 			);
-			path = ViewModel;
+			path = "Pokemon API";
 			sourceTree = "<group>";
 		};
 		F1D9F0A6291B80C500F7113D = {
@@ -129,9 +129,9 @@
 		F1D9F0B1291B80C600F7113D /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
-				F15DB7CF291C07BC00ED4D64 /* ViewModel */,
-				F15DB7CE291C07B700ED4D64 /* View */,
-				F15DB7CD291C07AD00ED4D64 /* Model */,
+				F15DB7CF291C07BC00ED4D64 /* Pokemon API */,
+				F15DB7CE291C07B700ED4D64 /* Pokemon Views */,
+				F15DB7CD291C07AD00ED4D64 /* Pokemon Model */,
 				F1D9F0B2291B80C600F7113D /* PokedexApp.swift */,
 				F1D9F0B4291B80C600F7113D /* ContentView.swift */,
 				F1D9F0B6291B80C800F7113D /* Assets.xcassets */,
